@@ -5,12 +5,24 @@
     <meta name="viewport" context="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css"> 
-    <style>
-    </style>
+    <link rel="icon" href="favicon.ico">
+<style>
+img:hover {background-color: #D5EEEE;}
+</style>
+<style>
+body {font-size: 150%}
+</style>
 </head>
 <body>
     <h1 style="text-align:center">Hello World</h1>
-    <a href="#image">See the image below</a>
+    <a href="#Skyfire-image">See the image below</a>
+    <br>
+
+    <p id="demo">JavaScript testing to change text in an elelement</p>
+
+    <button type="button" onclick="document.getElementById('demo').innerHTML = 'Hello JavaScript!'">Click me!</button>
+    <br>
+    <a href="otherDoc.html#image">See image on other page</a>
     <p>This is sample text</p>
     <button onclick="document.location='otherDoc.html'">This is a button, with JS to my other page.</button>
     <br>
@@ -21,17 +33,12 @@
         href="https://www.artstation.com/artwork/4X4ED8"
     >
         <img
-            id="image"
+            id="Skyfire-image"
             src="https://cdnb.artstation.com/p/assets/images/images/054/012/253/large/skyfire-935-1200-2.jpg?1663576220"
             alt="Skyfire"
-            width="500"
+            style="width:500px;foat:left"
         />
     </a>
-    	<pre style="color:red">
-This is an image from an artist called <mark>"Skyfire"</mark>.
-They don't say anything about copywrite and I am just using this to learn,
-so... credits and what not, pluss a link.
-	</pre>
     </cite>
 </body>
 </html>
