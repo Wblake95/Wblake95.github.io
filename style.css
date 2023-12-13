@@ -1,11 +1,3 @@
 :root {
 	color-scheme: dark
 }
-/*body { background-color: black; color: white; }
-/*a { color: lightblue; }*/
-img {
-	border: 2px solid red;
-	padding: 10px
-}
-table,th,td { border: 1px solid white; border-collapse: collapse }
-/*button { background-color: purple; color: white; border: 2px solid yellow}*/
