@@ -1,6 +1,6 @@
 ---
 layout: post
-title: testing
+title: My first post! Bash functions for post variables
 date: 2023-12-23 14:42:21 -0800
 categories: jekyll bash 
 ---
