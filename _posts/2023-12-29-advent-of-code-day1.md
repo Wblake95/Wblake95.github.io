@@ -9,12 +9,12 @@ I completed the first day of Advent of Code. The first part was extremely easy. 
 
 # What I did, 
 1. saved the file as plain text, as usual
-2. python funciton `open with`
+2. python function `open with`
 3. `for` loop each line
 4. use `find` and `rfind` to locate my answers. (where the problem was)
 5. combine both as strings and add the final answer.
 
-# How i solved it
+# How I solved it
 My idea was brilliant, I just fell into a classic problem, repeating myself! I wrote the code for `find` and `rfind` twice in the same if statement! Since I use vim, I just copied the if statement 4 times and changed the first line. Below, you can see the final product. I assigned the function to a variable and just used it when I needed it.
 You can see all of my code on my [github][Wblake95]
 ``` python
