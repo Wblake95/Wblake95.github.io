@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 
+title: Advent-Of-Code-Day-1
 date: 2023-12-29 07:14:05 -0800
 categories:
 ---

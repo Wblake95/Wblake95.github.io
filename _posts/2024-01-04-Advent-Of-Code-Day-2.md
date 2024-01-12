@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Advent Of Code Day2
+title: Advent-Of-Code-Day-2
 date: 2024-01-04 14:34:36 -0800
 categories:
 ---

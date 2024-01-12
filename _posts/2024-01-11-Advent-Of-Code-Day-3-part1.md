@@ -1,6 +1,6 @@
 ---
 layout: post
-title: advent-of-code-day3-part1
+title: Advent-of-Code-Day-3-Part-1
 date: 2024-01-11 10:00:56 -0800
 categories:
 ---
@@ -37,7 +37,7 @@ with open("data.txt", "r") as file:
             table[incr] = table[incr] + j
         incr += 1
 ```
-After that, I did 2 `for` loops to go threw each line and character looking for symbols"---"since they appear the least"---"for efficiency. From there, All I did was if statements to look in all directs for a number.
+After that, I did 2 `for` loops to go threw each line and character looking for symbols---since they appear the least---for efficiency. From there, All I did was if statements to look in all directs for a number.
 ``` python
 for i in table.keys():
     for j in range(len(table[i])):
@@ -59,7 +59,7 @@ for i in table.keys():
 --- break in text ---
 ```
 As you can see above, there are two functions I am using to append to the `list` called temp. `myFunc`, was used to count back in the string to find the first integer in the number and return the result. The second function called `appendToList`, is used to make sure it isn't returning `None`, which is useless to me.
-`myFunc`, took in two variables, the index of the string, and the string its self. From there it would count back to find the first integer. The last thing it did was make sure that the number wasn't the same as the last one in the list"---"accidental repeated number.
+`myFunc`, took in two variables, the index of the string, and the string its self. From there it would count back to find the first integer. The last thing it did was make sure that the number wasn't the same as the last one in the list---accidental repeated number.
 ``` python
 def myFunc(index, string):
     part = ""
@@ -86,7 +86,7 @@ def appendToList(myFunc):
     if myFunc != None:
         temp.append(myFunc)
 ```
-That is it! All I had to do after that was pop that first `None`, form the list"---"cannot index empty list"---" 
+That is it! All I had to do after that was pop that first `None`, from the list---cannot index empty list---.
 
 
 
